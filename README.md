@@ -254,11 +254,14 @@ POST /wallet/topup
 
 - Launch
 
-## MVP Build Order
+## MVP Build Order Checklist
 
 1. [ ] Database schema
 2. [ ] Models + repos layer
-3. [ ] Auth service
-4. [ ] eSIM provider service and integration
-5. [ ] Order service
-6. [ ] Billing service (wallet)
+3. [ ] API structure (routers + middlewares + handlers) and basic endpoints
+4. [ ] Auth service
+5. [ ] Billing service (wallet)
+6. [ ] Plans service
+7. [ ] eSIM provider service
+8. [ ] Order service
+9. [ ] Frontend integration (Vite + React)
