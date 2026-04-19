@@ -253,3 +253,12 @@ POST /wallet/topup
 #### Week 8
 
 - Launch
+
+## MVP Build Order
+
+1. [ ] Database schema
+2. [ ] Models + repos layer
+3. [ ] Auth service
+4. [ ] eSIM provider service and integration
+5. [ ] Order service
+6. [ ] Billing service (wallet)
